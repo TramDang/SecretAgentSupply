@@ -1,1 +1,41 @@
-111111
+html{
+  font-size: 18px;
+}
+body{
+  font-size: 18px;
+  font-style: Helvetica;
+  background-color: white;
+}
+#logo{
+  display: flex;
+  background-color: black;
+  width: 100%;
+  justify-content: center;
+}
+ #logo .container{
+  display: flex;
+  width: 960px;
+  border: solid 3px red;
+  align-content: center;
+
+}
+.logo1{
+  display: block;
+  height: 1.5rem;
+  padding: 1.5rem 0.5rem;
+
+}
+#logo h3{
+  display: block;
+  font-size: 1rem;
+  color: white;
+  padding: 0.66rem 0.5rem;
+  margin: 0px;
+}
+#banner{
+  display: flex;
+  background-image: "resources\images\moto.jpeg";
+  width: 100%;
+  height: 25rem;
+  margin: 0px;
+}
