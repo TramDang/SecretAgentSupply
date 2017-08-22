@@ -15,27 +15,126 @@ body{
  #logo .container{
   display: flex;
   width: 960px;
-  border: solid 3px red;
-  align-content: center;
+
+
 
 }
 .logo1{
   display: block;
   height: 1.5rem;
-  padding: 1.5rem 0.5rem;
+  padding: 0.5rem;
 
 }
 #logo h3{
   display: block;
   font-size: 1rem;
   color: white;
-  padding: 1.66rem 0.5rem;
-  margin: 0px;
+  padding: 0.66rem  0.5rem;
+  margin: 0;
 }
-#banner{
+#banner {
   display: flex;
-  background-image: "/resources/images/moto.jpeg";
-  width: 100%;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-size: cover;
   height: 25rem;
-  margin: 0px;
+  justify-content: center;
+
+}
+.backgimg{
+
+  width: 25rem;
+  margin-top: 9rem;
+  height: 10rem;
+  background-color: black;
+
+}
+.backgimg h3{
+  color: white;
+
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  margin: 0;
+}
+.backgimg h1{
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 0.25rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  margin: 0;
+
+}
+#menu {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+.container1{
+  display: flex;
+  width: 960px;
+  justify-content: space-around;
+
+}
+.box{
+  display: flex;
+  color: white;
+  padding: 0.75rem 0rem;
+}
+#bigbox{
+  border: solid 2px red;
+}
+
+.title{
+  display: flex;
+  width: 960px;
+
+
+}
+#main{
+  display: flex;
+  width: 960px;
+  justify-content: center;
+  border: solid 2px red;
+  flex-wrap: wrap;
+}
+.pen{
+  display: inline-block;
+  border: solid 4px black;
+  width: 15rem;
+  height: 15rem;
+
+}
+.watch{
+  display: inline-block;
+  border: solid 4px black;
+  width: 15rem;
+  height: 15rem;
+
+
+}
+
+.glasses{
+  display: inline-block;
+  border: solid 4px black;
+  width: 15rem;
+  height: 15rem;
+}
+.watch1{
+  width: 5rem;
+  height: 5rem;
+}
+.pen1{
+  width: 5rem;
+  height: 5rem;
+}
+.glasses1{
+  width: 5rem;
+  height: 5rem;
+}
+.items{
+  display: inline-flex;
+  width: 960px;
 }
