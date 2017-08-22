@@ -137,7 +137,6 @@ body{
   display: flex;
   width: 35%;
   height: 5rem;
-
   flex-flow: column;
 
 }
@@ -159,11 +158,9 @@ body{
   display: flex;
   width: 100%;
   margin-bottom: 4rem;
-
 }
 .line3{
   display: flex;
-
   color: white;
   padding-left: 2rem;
   background-color: black;
@@ -183,6 +180,4 @@ footer{
   color: white;
   font-weight: bold;
   text-align: left;
-
-
 }
