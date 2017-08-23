@@ -131,7 +131,6 @@ body{
   display: flex;
   justify-content: center;
   margin-top: 3rem;
-
 }
 .location,.hours{
   display: flex;
@@ -142,17 +141,16 @@ body{
 }
 .info{
   display: flex;
-
   justify-content: space-between;
   width: 960px;
-  height: 10rem;
+  height: 15rem;
 }
 .line1{
   display: flex;
-
   color: white;
   background-color: black;
   padding-left: 2rem;
+  width: 100%;
 }
 .line2{
   display: flex;
@@ -164,11 +162,19 @@ body{
   color: white;
   padding-left: 2rem;
   background-color: black;
+  width: 100%;
 }
 .line4{
   display: flex;
   width: 100%;
   margin-bottom: 4rem;
+}
+.line1 h3{
+  font-weight: bold;
+  color:blue,
+}
+.line3, h3{
+  font-weight: bold;
 }
 footer{
   display: flex;
