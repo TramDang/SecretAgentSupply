@@ -140,7 +140,7 @@ body{
   width: 960px;
   margin: 0;
   padding: 0;
-  height: 10rem;
+  height: 7rem;
 
 }
 .line1{
@@ -181,6 +181,7 @@ footer{
   display: flex;
   height: 5rem;
   justify-content: center;
+  align-items: center;
   background-color: black;
   margin-top: 4rem;
 }
