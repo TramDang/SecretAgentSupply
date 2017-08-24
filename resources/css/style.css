@@ -2,7 +2,6 @@ html{
   font-size: 18px;
 }
 body{
-  font-size: 18px;
   font-style: Helvetica;
   background-color: white;
 
@@ -130,7 +129,6 @@ body{
   flex-flow: column;
   margin: 0;
   padding: 0;
-
 }
 
 
@@ -148,8 +146,8 @@ body{
   color: white;
   background-color: black;
   padding-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
 }
 .line2{
   display: flex;
@@ -161,8 +159,8 @@ body{
   color: white;
   background-color: black;
   padding-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5%rem;
+  padding-bottom: 0.5%rem;
 
 }
 .line4{
