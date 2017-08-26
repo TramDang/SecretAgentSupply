@@ -22,14 +22,14 @@ body{
 .logo1{
   display: block;
   height: 1.5rem;
-  padding: 0.5rem;
-
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
 }
 #logo h3{
   display: block;
   font-size: 1rem;
   color: white;
-  padding: 0.66rem  0.5rem;
+  padding: 0.66rem  1rem;
   margin: 0;
 }
 #banner {
@@ -41,7 +41,6 @@ body{
 
 }
 .backgimg{
-
   width: 25rem;
   margin-top: 9rem;
   height: 10rem;
@@ -50,22 +49,19 @@ body{
 }
 .backgimg h3{
   color: white;
-
   font-size: 1rem;
   font-weight: bold;
-  padding-top: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
   padding-left: 3rem;
-  margin: 0;
 }
 .backgimg h1{
   color: white;
   font-size: 2rem;
   font-weight: bold;
-  padding-top: 0.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: auto;
   padding-left: 3rem;
-  padding-bottom: 2rem;
-  margin: 0;
-
 }
 #menu {
   display: flex;
@@ -75,12 +71,13 @@ body{
 }
 .items{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.box{
+.box h3{
   display: flex;
   color: white;
-  padding: 0.75rem 0rem;
+  margin: 0.75rem 0rem;
+
 }
 .bannertitle{
   display: flex;
@@ -97,40 +94,46 @@ body{
   width: 9rem;
   height: 9rem;
   margin: 2rem;
+  align-items: center;
 
 }
 .line{
-  display: flex;
-  width: 100%;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  justify-content: center;
-  align-items: center;
   color: white;
   background-color: black;
+  width: 100%;
 }
+.line h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  width: 100%;
+  margin: 0.5rem 0rem;
 
+}
 .watch,.pen,.glasses{
   display: inline-flex;
   width: 30%;
-  height: 17.5rem;
+  height: 15.25rem;
   border: solid 4px black;
-  flex-flow: column;
   justify-content: center;
   align-items: center;
+  flex-flow: column;
+
 
 }
 #main, #main2{
   display: flex;
   justify-content: center;
   margin-top: 3rem;
+  margin-bottom: 0rem;
 }
 .location,.hours{
   display: flex;
-  width: 35%;
+  width: 33%;
   flex-flow: column;
   margin: 0;
-  padding: 0;
+  height: 4rem;
 }
 
 
@@ -139,43 +142,33 @@ body{
   justify-content: space-between;
   width: 960px;
   margin: 0;
-  padding: 0;
   height: 7rem;
-
 }
 .line1{
   display: flex;
   color: white;
   background-color: black;
-  padding-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
-.line2{
+
+
+.line2 h4,.line4 h4{
   display: flex;
-  line-height: 0rem;
-  margin-bottom: 4rem;
+  margin:0;
 }
 .line3{
   display: flex;
   color: white;
   background-color: black;
-  padding-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+}
 
-}
-.line4{
-  display: flex;
+
+.line1 h3, .line3 h3{
+  font-weight: bold;
+  font-size: 1rem;
   width: 100%;
-  line-height: 0rem;
-  margin-bottom: 4rem;
-}
-.line1 h3{
-  font-weight: bold;
-}
-.line3 h3{
-  font-weight: bold;
+  padding-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 footer{
   display: flex;
@@ -183,7 +176,7 @@ footer{
   justify-content: center;
   align-items: center;
   background-color: black;
-  margin-top: 4rem;
+  margin-top: 0;
 }
 .copyright{
   color: white;
