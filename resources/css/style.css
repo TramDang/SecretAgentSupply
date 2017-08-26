@@ -68,14 +68,19 @@ body{
   display: flex;
   justify-content: center;
   background-color: firebrick;
-  border: solid 2px black;
-
+}
+#menu1{
+  display: flex;
+  justify-content: center;
+  background-color: firebrick;
 }
 .items{
   display: flex;
-  border: solid 2px black;
   justify-content: space-between;
-
+}
+.item{
+  display: flex;
+  justify-content: center;
 }
 .box h3{
   display: flex;
@@ -84,9 +89,16 @@ body{
   font-size: 1rem;
   font-weight: bold;
   font-family: helvetica;
+}
+.box1 h3{
+  display: block;
+  color: white;
+  margin: 0.75rem 0rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: helvetica;
 
 }
-
 .bannertitle{
   display: flex;
 
@@ -146,7 +158,6 @@ body{
   height: 4rem;
 }
 
-
 .info{
   display: flex;
   justify-content: space-between;
@@ -198,5 +209,17 @@ body{
   text-align: left;
   font-size: 1rem;
   font-weight: bold;
+}
+@media only screen and (min-width: 1024px)
+{
+  #menu1{
+    display: none;
+  }
+}
+@media only screen and (max-width: 1024px),(orientation: portrait)
+{
+  #menu{
+    display: none;
+  }
 
 }
