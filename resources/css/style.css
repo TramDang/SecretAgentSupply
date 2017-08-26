@@ -28,6 +28,7 @@ body{
 #logo h3{
   display: block;
   font-size: 1rem;
+  font-weight: bold;
   color: white;
   padding: 0.66rem  1rem;
   margin: 0;
@@ -67,18 +68,25 @@ body{
   display: flex;
   justify-content: center;
   background-color: firebrick;
+  border: solid 2px black;
 
 }
 .items{
   display: flex;
+  border: solid 2px black;
   justify-content: space-between;
+
 }
 .box h3{
   display: flex;
   color: white;
   margin: 0.75rem 0rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: helvetica;
 
 }
+
 .bannertitle{
   display: flex;
 
@@ -98,7 +106,6 @@ body{
 
 }
 .line{
-  color: white;
   background-color: black;
   width: 100%;
 }
@@ -107,6 +114,9 @@ body{
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  font-size: 1rem;
+  font-family: helvetica;
+  color: white;
   width: 100%;
   margin: 0.5rem 0rem;
 
@@ -114,7 +124,7 @@ body{
 .watch,.pen,.glasses{
   display: inline-flex;
   width: 30%;
-  height: 15.25rem;
+  height: 15rem;
   border: solid 4px black;
   justify-content: center;
   align-items: center;
@@ -170,16 +180,23 @@ body{
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-footer{
+#end{
   display: flex;
   height: 5rem;
+  width: 100%;
   justify-content: center;
-  align-items: center;
   background-color: black;
   margin-top: 0;
 }
-.copyright{
+.copyright.container{
+  display: flex;
+  align-items: center;
+}
+.copyright.container h3{
+  display: block;
   color: white;
-  font-weight: bold;
   text-align: left;
+  font-size: 1rem;
+  font-weight: bold;
+
 }
