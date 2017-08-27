@@ -107,7 +107,6 @@ body{
   display: flex;
   justify-content: space-between;
   width: 960px;
-
 }
 .watch1,.pen1,.glasses1{
   display: flex;
@@ -152,10 +151,10 @@ body{
 }
 .location,.hours{
   display: flex;
-  width: 33%;
+  width: 35%;
   flex-flow: column;
+  color: white;
   margin: 0;
-  height: 4rem;
 }
 
 .info{
@@ -163,52 +162,44 @@ body{
   justify-content: space-between;
   width: 960px;
   margin: 0;
-  height: 7rem;
-}
-.line1{
-  display: flex;
-  color: white;
-  background-color: black;
 }
 
 
 .line2 h4,.line4 h4{
   display: flex;
-  margin:0;
+  width: 100%;
+  margin-bottom: 4rem;
+  color: black;
+  background-color: white;
 }
-.line3{
-  display: flex;
-  color: white;
-  background-color: black;
-}
-
 
 .line1 h3, .line3 h3{
+  display: flex;
   font-weight: bold;
   font-size: 1rem;
-  width: 100%;
+  color: white;
+  background-color: black;
   padding-left: 2rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  padding-top:1rem;
+  padding-bottom: 1rem;
 }
 #end{
   display: flex;
   height: 5rem;
   width: 100%;
   justify-content: center;
+  align-items: center;
   background-color: black;
   margin-top: 0;
 }
-.copyright.container{
-  display: flex;
-  align-items: center;
-}
+
 .copyright.container h3{
-  display: block;
+  display: flex;
   color: white;
   text-align: left;
   font-size: 1rem;
   font-weight: bold;
+
 }
 @media only screen and (min-width: 1024px)
 {
@@ -224,5 +215,66 @@ body{
   .glasses{
     display: none
   }
+  .pen,.watch{
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 470px), (orientation: portrait)
+{
+  #banner{
+    height: 15rem;
+  }
+  .backgimg h3{
+    margin-top: 1rem;
+    padding-left: 2rem;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 0.77rem;
+  }
+  .backgimg h1{
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 1rem;
+    padding-left: 2rem;
+  }
+  .backgimg{
+    height: 5.5rem;
+    width: 100%;
+  }
+  #menu{display:none;
+  }
+  .watch,.glasses{
+    display: none;
+  }
+  .pen{
+    width: 90%;
+    display: center;
+  }
+  .products{
+    justify-content: center;
+  }
+  .info{
+    flex-flow: column;
+    width: 90%;
+    }
+.location,.hours{
+  width: 100%;
+  margin-top: 0.5rem;
 
+}
+.line1 h3,.line3 h3{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.line2 h4,.line4 h4{
+  margin: 0;
+}
+#end{
+  margin-top: 4rem;
+}
+.copyright.container h3{
+  width: 100%;
+  display: block;
+  text-align: center;
 }
